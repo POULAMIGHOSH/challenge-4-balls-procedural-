@@ -1,4 +1,5 @@
 float speedofballone,speedofballtwo,speedofballthree,speedofballfour;
+int heightoffirstball=120;
 
 
 void setup(){
@@ -18,9 +19,9 @@ void draw(){
   speedofballfour=speedofballfour+4;
   
   
-  ellipse(speedofballone,120,50,50);
-  ellipse(speedofballtwo,240,50,50);
-  ellipse(speedofballthree,360,50,50);
-  ellipse(speedofballfour,480,50,50);
+  ellipse(speedofballone,heightoffirstball,50,50);
+  ellipse(speedofballtwo,heightoffirstball*2,50,50);
+  ellipse(speedofballthree,heightoffirstball*3,50,50);
+  ellipse(speedofballfour,heightoffirstball*4,50,50);
 
 }
